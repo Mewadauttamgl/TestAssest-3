@@ -1,10 +1,11 @@
 package com.example.demo.controller;
 
 import org.springframework.data.annotation.Reference;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
+@Controller
 public class CustomerController {
 	@RequestMapping("/login")//for login page
 	public String home() {

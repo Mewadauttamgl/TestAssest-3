@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.name.demo.dao.CustomerRepo;
-import com.name.demo.model.Customer;
+import com.name.example.dao.CustomerRepo;
+import com.name.example.model.Customer;
 
 @RestController
 public class CustomerController {
